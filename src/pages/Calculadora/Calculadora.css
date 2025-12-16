@@ -1,0 +1,120 @@
+.calculadora-form {
+  margin-bottom: var(--spacing-xl);
+}
+
+.form-note {
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-lead-gray);
+  opacity: 0.8;
+}
+
+.input-group {
+  margin-bottom: var(--spacing-lg);
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+  color: var(--color-lead-gray);
+}
+
+.input-group input {
+  width: 100%;
+  padding: var(--spacing-md);
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: var(--font-body);
+  transition: border-color 0.2s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: var(--color-sage-green);
+}
+
+.button-group {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  margin-top: var(--spacing-xl);
+}
+
+.resultado {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 2px solid #eee;
+}
+
+.resultado h3 {
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-sage-green);
+}
+
+.resultado-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  background-color: var(--color-off-white);
+  border-radius: 8px;
+}
+
+.info-item .label {
+  font-weight: 600;
+  color: var(--color-lead-gray);
+}
+
+.info-item .value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-sage-green);
+}
+
+.info-item .value.highlight {
+  font-size: 2rem;
+  color: var(--color-sage-green);
+}
+
+.recomendacao {
+  padding: var(--spacing-lg);
+  background-color: var(--color-baby-blue);
+  border-radius: 8px;
+  margin-bottom: var(--spacing-lg);
+  border-left: 4px solid var(--color-sage-green);
+}
+
+.recomendacao p {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.info-box {
+  padding: var(--spacing-md);
+  background-color: var(--color-off-white);
+  border-radius: 8px;
+  font-size: 0.875rem;
+}
+
+.info-box p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .resultado-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .input-group input {
+    max-width: 300px;
+  }
+}
+
