@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import Container from '../Container/Container'
+import logoRato from '../../img/logoRato.png'
 import './Header.css'
 
 const Header = () => {
@@ -26,6 +27,7 @@ const Header = () => {
         <Container>
           <div className="header-content">
           <Link to="/" className="header-logo" onClick={closeMenu}>
+            <img src={logoRato} alt="Toca do Twister" className="header-logo-img" />
             <h1>Toca do Twister</h1>
           </Link>
           <nav className={`header-nav ${isMenuOpen ? 'header-nav-open' : ''}`}>
