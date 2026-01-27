@@ -209,7 +209,7 @@ const Basico = () => {
               <div className="feature-icon-large">👁️</div>
               <h3>Sentidos</h3>
               <p>
-                <strong>Visão:</strong> Enxergam bem no escuro, mas têm visão limitada de cores<br/>
+                <strong>Visão:</strong> Enxergam mal, parecido com borrões e têm visão limitada de cores<br/>
                 <strong>Olfato:</strong> Extremamente desenvolvido - principal sentido<br/>
                 <strong>Audição:</strong> Muito sensível, ouvem frequências que humanos não captam<br/>
                 <strong>Tato:</strong> Bigodes (vibrissas) são essenciais para navegação
